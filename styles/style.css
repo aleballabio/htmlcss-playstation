@@ -1,0 +1,38 @@
+.flex-logo {
+    display: flex;
+    justify-content: flex-end;
+    padding: 1rem;
+}
+
+.dropdown-menu li a img {
+    width: 75px;
+}
+
+.list-style-none {
+    list-style: none;
+}
+
+.hardware {
+    list-style: square;
+    list
+}
+
+.none {
+    list-style: none !important;
+}
+
+.hardware::before {
+  content: "• " !important;
+  color: blue !important;
+  padding-right: 2px;
+  font-size: 20px;
+  text-align: justify;
+}
+
+.separator {
+    width: 100% !important;
+    background-color: rgb(156, 156, 156) !important;
+    height: 1px !important;
+    margin: 0 !important;
+    margin-bottom: 1rem;
+}
