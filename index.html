@@ -36,15 +36,15 @@
                     aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
-                <div class="collapse navbar-collapse show" id="navbarWithDropdown">
+                <div class="collapse navbar-collapse show justify-content-between" id="navbarWithDropdown">
                     <ul class="navbar-nav">
-                        <li class="nav-item">
+                        <li class="nav-item text-dark fw-bold">
                             <a class="nav-link active" aria-current="page" href="#">Home</a>
                         </li>
-                        <li class="nav-item">
+                        <li class="nav-item text-dark fw-bold">
                             <a class="nav-link" href="#">Features</a>
                         </li>
-                        <li class="nav-item dropdown">
+                        <li class="nav-item dropdown text-dark fw-bold">
                             <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
                                 data-bs-toggle="dropdown" aria-expanded="false">
                                 Dropdown link
@@ -79,6 +79,42 @@
                                     </ol>
                                 </li>
                             </ul>
+                        </li>
+                    </ul>
+
+                    <ul class="navbar-nav text-center">
+                        <li class="nav-item dropdown ">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                Dropdown link
+                            </a>
+                            <ul class="dropdown-menu border-0 text-center" aria-labelledby="navbarDropdownMenuLink">
+                                <li class="d-flex flex-column align-items-center">
+                                    <ul class="list-style-none d-flex justify-content-center align-items-center mb-2">
+                                        <li><a class="dropdown-item d-flex flex-column align-items-center" href="#">
+                                                <img src="img/play-menu-ico.png" alt="ps5 logo"> PlayStation 5</a></li>
+                                        <li><a class="dropdown-item d-flex flex-column align-items-center" href="#">
+                                                <img src="img/play-menu-ico.png" alt="ps5 logo"> PlayStation 4</a></li>
+                                        <li><a class="dropdown-item d-flex flex-column align-items-center" href="#">
+                                                <img src="img/play-menu-ico.png" alt="ps5 logo"> PlayStation 3</a></li>
+                                    </ul>
+                                    <hr class="separator">
+                                    <ol class="d-flex align-items-center justify-content-center none pb-2">
+                                        <li class="dropdown-item hardware pe-1">Link Hardware</li>
+                                        <li class="dropdown-item hardware pe-1">Link Hardware</li>
+                                        <li class="dropdown-item hardware">Link Hardware</li>
+                                    </ol>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="nav-item text-dark fw-bold px-2">
+                            <a class="nav-link btn btn-dark text-white border rounded-custom d-inline-block py-2 px-3"
+                                href="#">Accedi</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link disabled text-secondary" href="#" tabindex="-1" aria-disabled="true"><i
+                                    class="fa-solid fa-magnifying-glass"></i></a>
                         </li>
                     </ul>
                 </div>
