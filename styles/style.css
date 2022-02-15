@@ -1,3 +1,13 @@
+/* Format tags */
+
+.rounded-custom {
+    border-radius: 25px !important;
+}
+
+.rounded-custom-2 {
+    border-radius: 12px;
+}
+
 .flex-logo {
     display: flex;
     justify-content: flex-end;
@@ -14,7 +24,6 @@
 
 .hardware {
     list-style: square;
-    list
 }
 
 .none {
@@ -37,6 +46,18 @@
     margin-bottom: 1rem;
 }
 
-.rounded-custom {
-    border-radius: 25px !important;
+
+
+/* Banner */
+
+.padding-head {
+    padding-top: 118px !important;
+}
+
+#returnal {
+    background-image: url(../img/jumbo-bg.png);
+    background-size: cover;
+    background-position: center;
+    padding-top: 350px;
+    padding-bottom: 75px;
 }
