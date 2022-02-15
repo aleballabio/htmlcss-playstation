@@ -8,6 +8,16 @@
     border-radius: 12px;
 }
 
+.fs-custom-1 {
+    font-size: .6rem !important;
+}
+
+.fs-custom-2 {
+    font-size: .8rem !important;
+}
+
+/* Header */
+
 .flex-logo {
     display: flex;
     justify-content: flex-end;
@@ -61,3 +71,5 @@
     padding-top: 350px;
     padding-bottom: 75px;
 }
+
+/* PS5 */
