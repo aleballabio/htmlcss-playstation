@@ -24,6 +24,10 @@
     padding: 1rem;
 }
 
+/* .dropdown-menu li a img {
+    width: 100%;
+} */
+
 .list-style-none {
     list-style: none;
 }
