@@ -68,18 +68,19 @@
 
 
 
-/* Banner */
+/* Hero */
 
-.padding-head {
-    padding-top: 118px !important;
+.hero {
+   padding-top: 300px;
+   padding-bottom: 75px;
+   margin-top: 120px;
 }
 
 #returnal {
     background-image: url(../img/jumbo-bg.png);
+    background-repeat: no-repeat;
     background-size: cover;
-    background-position: center;
-    padding-top: 350px;
-    padding-bottom: 75px;
+    background-position: top;
 }
 
 /* PS5 */
