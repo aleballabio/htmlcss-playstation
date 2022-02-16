@@ -30,6 +30,10 @@
     box-shadow: inset 0px 0px 0px 2px white;
 }
 
+.btn-danger:hover, .btn-white:hover {
+    box-shadow: inset 0px 0px 0px 2px black !important;
+}
+
 .btn {
     border-width: 2px !important;
 }
