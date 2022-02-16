@@ -26,6 +26,14 @@
     font-weight: bold;
 }
 
+.btn:hover {
+    box-shadow: inset 0px 0px 0px 2px white;
+}
+
+.btn {
+    border-width: 2px !important;
+}
+
 /* Header */
 
 .flex-logo {
