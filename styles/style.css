@@ -39,7 +39,7 @@
     border-width: 2px !important;
 }
 
-.dropdown-menu li ul li.me-0 a.d-flex {
+.dropdown-menu li ul li a.d-flex {
     color: black !important;
 }
 
@@ -77,6 +77,10 @@
 }
 
 .navbar a:hover {
+    color: rgb(74, 136, 190) !important;
+}
+
+.navbar a:focus {
     color: rgb(74, 136, 190) !important;
 }
 
@@ -124,6 +128,14 @@ a:focus .chevron-down {
     0px 0px 0px 4px rgb(74, 136, 196);
 }
 
+.gallery-1 div div div {
+    transition: transform 1s;
+}
+
+.gallery-1 div div div:hover {
+    transform: translateY(-10px)
+}
+
 
 
 /* PS5 */
@@ -162,11 +174,43 @@ a:focus .chevron-down {
     background-position: center;
 }
 
+/* Nuove uscite */
+
+.nuove-uscite div div div {
+    transition: transform .5s;
+}
+
+.nuove-uscite div div div:hover {
+    transform: scale(1.02);
+}
+
 
 /* PS-PLUS */
 
 .ms-grey {
     background-color: rgb(190, 188, 187) !important;
+}
+
+/* PS-Store */
+
+.ps-store div div div div {
+    transition: transform .5s;
+}
+
+.ps-store div div div div:hover {
+    transform: scale(1.02);
+    box-shadow: 0px 4px 4px 2px #68676723;
+}
+
+/* Social-Media */
+
+.social-media div div a div {
+    transition: transform .5s;
+}
+
+.social-media div div a div:hover {
+    transform: scale(1.02);
+    box-shadow: 0px 4px 4px 2px #68676723;
 }
 
 /* Footer */
