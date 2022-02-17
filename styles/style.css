@@ -39,6 +39,10 @@
     border-width: 2px !important;
 }
 
+.dropdown-menu li ul li.me-0 a.d-flex {
+    color: black !important;
+}
+
 /* Header */
 
 .flex-logo {
@@ -91,6 +95,10 @@ a:focus .chevron-down {
 
 .dropdown-menu li ul li a.d-flex:hover {
     box-shadow: 0px 0px 9px 3px rgb(0 0 0 / 20%);
+}
+
+.nav-link.btn.btn-dark {
+    color: white !important;
 }
 
 /* Hero */
